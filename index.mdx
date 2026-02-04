@@ -1,6 +1,6 @@
 ---
 title: "Pravidla projektu"
-description: "Kompletní přehled všech platných pravidel pro projekt Lion Police Roleplay."
+description: "Kompletní kodex pravidel pro Lion Police Roleplay. Vše, co potřebujete vědět pro kvalitní RP zážitek."
 icon: "scale-balanced"
 ---
 
@@ -11,11 +11,8 @@ Vítejte na pravidlech projektu **Lion Police Roleplay**. Tato pravidla slouží
 Klikněte na jakoukoliv kartu pro okamžitý přesun k detailům pravidla.
 
 <CardGroup cols={3}>
-  <Card title="Základy & Pojmy" icon="book-open" href="#step-rp">
-    RP terminologie, IC/OOC a herní příkazy.
-  </Card>
-  <Card title="Manipulace s Info" icon="brain" href="#step-metagaming">
-    Pravidla pro Metagaming a Mixing.
+  <Card title="Základy & Info" icon="book-open" href="#step-rp">
+    RP pojmy, příkazy a pravidla Metagamingu.
   </Card>
   <Card title="Herní Realismus" icon="earth-europe" href="#step-powergaming">
     Powergaming, řízení a RP zranění.
@@ -26,8 +23,17 @@ Klikněte na jakoukoliv kartu pro okamžitý přesun k detailům pravidla.
   <Card title="Závažné Zákazy" icon="triangle-exclamation" href="#step-zakazy">
     Combat Log, KOS, VDM a FailRP.
   </Card>
-  <Card title="Policejní Sekce" icon="shield-halved" href="#step-lspd">
+  <Card title="Policejní Sbor" icon="shield-halved" href="#step-lspd">
     Vše o náborech a fungování LSPD.
+  </Card>
+  <Card title="Civilní Sekce" icon="user-group" href="/civilian">
+    Pravidla pro civilisty a nelegální akce.
+  </Card>
+  <Card title="Komunikace s AT" icon="headset" href="#step-komunikace">
+    Pravidla pro kontaktování Admin Teamu.
+  </Card>
+  <Card title="Pravidla pro Pedy" icon="dog" href="#step-ped">
+    Speciální pravidla pro hraní za zvířata.
   </Card>
 </CardGroup>
 
@@ -62,8 +68,7 @@ Vaše činy, emoce a reakce by měly odpovídat charakteru a historii Vaší pos
 <div id="step-osudy" style={{ position: "relative", top: "-110px", visibility: "hidden" }} />
 
 **Stav bezvědomí.** Stav, kdy je Vaše postava v "dead screenu". Postava si po
-oživení **nepamatuje** události, které vedly k bezvědomí (situaci před
-výpadkem).
+oživení **nepamatuje** vše, co se stalo od momentu upadnutí do bezvědomí až po samotné oživení.
 
 </Step>
 
@@ -128,6 +133,17 @@ Odpočítávání delších činností v sekundách.
 </ul>
 </Step>
 
+<Step title="/stav <text>" icon="stethoscope">
+Slouží k popisu aktuálního stavu vaší postavy.
+
+**Příklad použití:**
+
+<ul>
+<li>/stav Je pod vlivem alkoholu</li>
+<li>/stav Má silné odřeniny na rukou</li>
+</ul>
+</Step>
+
 </Steps>
 
 ---
@@ -185,6 +201,7 @@ Provádění manévrů nebo jízdních stylů, které neodpovídají realitě ne
 <ul>
   <li>Vyjetí se supersportem do hor (OFF-ROAD).</li>
   <li>Přejíždění extrémních překážek, které by vozidlo zničily.</li>
+  <li>Různé přehnané skoky v terénu, které by vozidlo jasně poškodily.</li>
 </ul>
 </Step>
 
@@ -212,6 +229,7 @@ Berte na vědomí, že se nacházíte v miliónovém městě. I když nevidíte 
 
 <ul>
   <li>Při únosu za bílého dne na frekventovaném místě RPěte např. přes `/unos`, aby LSPD dostali oznámení od "svědků".</li>
+  <li>Je zakázáno krást vozidla na vojenské základně, kde je přítomna ozbrojená armáda. Jako civilisté musíte respektovat hrozbu, kterou armáda představuje.</li>
 </ul>
 </Step>
 
@@ -294,7 +312,7 @@ Vaše postava musí mít strach z určitých věcí. FearRP rozdělujeme na něk
 **Osudy Vaší postavy po smrti.**
 
 <ul>
-  <li>**PK:** Stav bezvědomí. Postava si po oživení nepamatuje situaci bezprostředně před ním.</li>
+  <li>**PK:** Stav bezvědomí. Postava si po oživení nepamatuje nic, co se stalo od momentu PK až po samotné oživení.</li>
   <li>**SelfCK:** Svoji postavu můžete definitivně zabít kdykoliv bez schválení.</li>
   <li>**CK jinému hráči:** K udělení CK jinému hráči potřebujete potvrzení od Admin Teamu přes ticket. Musí být kvalitně zaRPeno a sledováno někým z členů AT.</li>
 </ul>
@@ -426,6 +444,47 @@ Vaše jméno musí působit realisticky a nesmí porušovat pravidla.
 
 ---
 
+## <Icon icon="dog" iconType="solid" className="mr-2" /> Pravidla pro Pedy
+
+<div
+  id="step-ped"
+  style={{ position: "relative", top: "-110px", visibility: "hidden" }}
+/>
+
+Pravidla pro hraní za zvířecí postavy (nejčastěji psy).
+
+<Steps>
+
+<Step title="Schválení postavy" icon="check-double">
+  **Povolení od AT.** Hraní za Peda (nejčastěji K-9 pes) je povoleno pouze po
+  schválení Admin Teamem přes ticket na Discordu. S výjimkou u Civilian PEDů, je
+  tam platí jiná regulace zmíněna v sekci "Civilians".
+</Step>
+
+<Step title="Realismus a Powergaming" icon="paw">
+  **Zvířecí instinkty.** Zvíře se musí chovat realisticky. Je přísně zakázáno:
+  <ul>
+    <li>Mluvit nebo komunikovat jako člověk.</li>
+    <li>Provádět úkony, které nejsou pro daný druh fyzicky možné.</li>
+  </ul>
+</Step>
+
+<Step title="K-9 Psi" icon="handcuffs">
+  **Možnosti K-9 psů.** V případě schváleného K-9 PEDa, následným doložením o
+  správném zaerpení, může služební pes (K-9) provádět tyto úkony:
+  <ul>
+    <li>Posílání lokací (10-20) a Panic Buttonu (10-99).</li>
+    <li>
+      Otevírání dveří vozidla (pouze v těsné blízkosti aktuálního handlera).
+    </li>
+    <li>**Poznámka:** Výše uvedené se nevztahuje na dveře cel (CPZ).</li>
+  </ul>
+</Step>
+
+</Steps>
+
+---
+
 ## <Icon icon="shield-halved" iconType="solid" className="mr-2" /> Los Santos Police Department
 
 <div
@@ -460,6 +519,33 @@ Korupce je povolena pouze po schválení Admin Teamem přes ticket.
   V případě nepovolené korupce, trestá se **permanetním banem**!
 </Warning>
 
+</Step>
+
+</Steps>
+
+---
+
+## <Icon icon="headset" iconType="solid" className="mr-2" /> Komunikace s AT
+
+<div
+  id="step-komunikace"
+  style={{ position: "relative", top: "-110px", visibility: "hidden" }}
+/>
+
+Pravidla pro komunikaci s Admin Teamem.
+
+<Steps>
+
+<Step title="Soukromé zprávy (DMs)" icon="envelope">
+  **Zákaz vypisování soukromých PM.** Je přísně zakázáno kontaktovat členy Admin
+  Teamu do soukromých zpráv na Discordu. Veškeré problémy řešte přes **ticket
+  systém** nebo v příslušných OOC kanálech.
+</Step>
+
+<Step title="Žádosti o ošetření" icon="heart-pulse">
+  **Zákaz žádostí IC cestou.** Je zakázáno žádat o tzv. "pofoukání" nebo
+  "probrání" (heal/revive) prostřednictvím IC kanálů nebo RP akcí. Pokud máte
+  technický problém, řešte jej přes OOC.
 </Step>
 
 </Steps>
