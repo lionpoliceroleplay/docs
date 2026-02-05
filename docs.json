@@ -1,12 +1,19 @@
 {
-  "theme": "mint",
+  "theme": "aspen",
   "name": "🦁 Lion Police Roleplay",
   "colors": {
     "primary": "#d6c100",
     "light": "#bdad00",
     "dark": "#d6c100"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "icon.svg",
+  "backgroundImage": "https://img.freepik.com/free-vector/dark-hexagonal-background-with-yellow-gradients_79603-1457.jpg",
+  "metadata": {
+    "og:title": "Lion Police Roleplay - Oficiální Pravidla",
+    "og:description": "Vstupte do světa Lion Police Roleplay. Kompletní přehled pravidel, informací o LSPD a civilním životě na našem serveru.",
+    "og:image": "https://i.imgur.com/8Q9S8Xj.png",
+    "twitter:card": "summary_large_image"
+  },
   "navigation": {
     "tabs": [
       {
@@ -14,9 +21,7 @@
         "groups": [
           {
             "group": "🦁 Lion Police Roleplay - Guide",
-            "pages": [
-              "index"
-            ]
+            "pages": ["index", "civilian"]
           }
         ]
       }
@@ -27,18 +32,31 @@
           "anchor": "Discord",
           "href": "https://discord.gg/rrZ7RpEUkb",
           "icon": "discord"
+        },
+        {
+          "anchor": "Duty Times",
+          "href": "https://duty.lionsproject.eu/",
+          "icon": "clock"
         }
       ]
     }
   },
   "navbar": {
-    "links": [
-    ]
+    "links": []
   },
   "contextual": {
-    "options": [
-   ]
+    "options": []
   },
   "footer": {
+    "socials": {
+      "discord": "https://discord.gg/rrZ7RpEUkb"
+    }
+  },
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "I can't be found",
+      "description": "What ever **happened** to this _page_?"
+    }
   }
 }
