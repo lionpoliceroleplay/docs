@@ -28,6 +28,11 @@
     ],
     "global": {
       "anchors": [
+		{
+          "anchor": "Trello",
+          "href": "https://trello.lionsproject.eu/",
+          "icon": "trello"
+        },
         {
           "anchor": "Discord",
           "href": "https://discord.gg/rrZ7RpEUkb",
